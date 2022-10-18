@@ -1,9 +1,9 @@
 # printf
 A recreation of the printf function by Ipinmi Adebayo & Egwim Ikechukwu
 
-# _printf
 
-A formatted output conversion C program completed as part of the low-level programming and algorithm track at Holberton School. The program is a pseudo-recreation of the C standard library function, `printf`.
+A formatted output conversion C program completed as part of the low-level programming and algorithm track at ALX SE program. 
+The program is a pseudo-recreation of the C standard library function, `printf`.
 
 ## Description
 The function `_printf` writes output to standard output. The function writes the output under the control of a `format` string that specifies how subsequent arguments (accessed via the variable-length argument facilities of `stdarg`) are converted for output.
@@ -57,10 +57,6 @@ The address of the argument is written. The address is written in hexadecimal wi
 * **%**
 
 A `%` is written. No argument is converted. The complete conversion specification is `%%`.
-
-## Authors
-* Brennan D Baraban <[bdbaraban](https://github.com/bdbaraban)> - Holberton School student
-* Michael Klein <[mKleinCreative](https://github.com/mKleinCreative)> - Holberton School student
 
 ## Acknowledgements
 The `_printf` function emulates functionality of the C standard library function `printf`. This README borrows from the Linux man page [printf(3)](https://linux.die.net/man/3/printf).
